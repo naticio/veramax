@@ -1,4 +1,4 @@
-import { ScrollViewStyleReset } from 'expo-router/html';
+import { ScrollViewStyleReset } from "expo-router/html";
 
 // This file is web-only and used to configure the root HTML for every
 // web page during static rendering.
@@ -10,7 +10,17 @@ export default function Root({ children }: { children: React.ReactNode }) {
       <head>
         <meta charSet="utf-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+        <title>VeraMax. Create Birthday videos easily with AI</title>
+        <meta name="description" content="Create Birthday videos easily with AI" />
+        <link rel="canonical" href="https://veramaxi.com" />
+        <meta
+          name="keywords"
+          content="birthday video, happy birthday video, birthday video message, video and music generator, video maker and music, happy birthday happy birthday video, ai music generator, music video, custom stories, ai stories, music videos, party videos, deep fakes"
+        />
 
         {/* 
           Disable body scrolling on web. This makes ScrollView components work closer to how they do on native. 
